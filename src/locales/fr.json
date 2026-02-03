@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "features": "Avantages",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Innovation Fraîche",
+    "title": "Nous Transformons Vos Idées en",
+    "titleHighlight": "Solutions Digitales",
+    "description": "Nous développons des logiciels sur mesure qui stimulent la croissance de votre entreprise. Innovation, expertise et résultats garantis.",
+    "ctaPrimary": "Commencer Maintenant",
+    "ctaSecondary": "Voir les Services",
+    "stats": {
+      "projects": "Portfolio en Croissance",
+      "satisfaction": "Satisfaction Client",
+      "experience": "Équipe de Développement"
+    },
+    "badge2": {
+      "title": "Livraison rapide",
+      "subtitle": "Agile et efficace"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Nous offrons des solutions technologiques complètes pour propulser votre entreprise vers l'avenir.",
+    "items": {
+      "web": {
+        "title": "Développement Web",
+        "description": "Applications web modernes et évolutives construites avec les dernières technologies et meilleures pratiques."
+      },
+      "mobile": {
+        "title": "Applications Mobile",
+        "description": "Applications mobiles natives et hybrides pour iOS et Android avec des expériences utilisateur exceptionnelles."
+      },
+      "automation": {
+        "title": "Automatisation",
+        "description": "Optimisez vos processus métier avec des solutions d'automatisation intelligentes et efficaces."
+      },
+      "security": {
+        "title": "Sécurité",
+        "description": "Mise en œuvre des meilleures pratiques de sécurité pour protéger vos données et applications."
+      },
+      "consulting": {
+        "title": "Conseil",
+        "description": "Conseil technologique expert pour vous aider à prendre les meilleures décisions stratégiques."
+      },
+      "cloud": {
+        "title": "Solutions Cloud",
+        "description": "Migration et développement cloud avec AWS, Azure et Google Cloud."
+      }
+    }
+  },
+  "features": {
+    "title": "Pourquoi Choisir Azouggi ?",
+    "subtitle": "Nous combinons expertise technique et approche centrée client pour livrer des solutions qui fonctionnent vraiment.",
+    "items": {
+      "agile": {
+        "title": "Méthodologie agile pour une livraison rapide",
+        "description": "Développement itératif"
+      },
+      "team": {
+        "title": "Équipe de développement expérimentée",
+        "description": "Professionnels dédiés"
+      },
+      "support": {
+        "title": "Support technique dédié",
+        "description": "Toujours là pour aider"
+      },
+      "code": {
+        "title": "Code propre et bien documenté",
+        "description": "Maintenable à long terme"
+      },
+      "cicd": {
+        "title": "Intégration et déploiement continus",
+        "description": "Pipelines automatisés"
+      },
+      "testing": {
+        "title": "Tests de qualité rigoureux",
+        "description": "Garantie de fiabilité"
+      }
+    },
+    "quote": "Nous travaillons avec les technologies les plus récentes et éprouvées pour garantir que votre solution soit moderne, évolutive et maintenable à long terme.",
+    "quoteAuthor": "Azouggi"
+  },
+  "contact": {
+    "title": "Prêt à Commencer ?",
+    "subtitle": "Parlez-nous de votre projet et nous vous aiderons à le concrétiser.",
+    "info": {
+      "title": "Informations de Contact",
+      "email": "Email",
+      "phone": "Téléphone",
+      "office": "Bureau",
+      "location": "Nouakchott, Mauritanie"
+    },
+    "why": {
+      "title": "Pourquoi Nous Contacter ?",
+      "item1": "Consultation initiale gratuite",
+      "item2": "Devis sans engagement",
+      "item3": "Réponse rapide",
+      "item4": "Conseils personnalisés"
+    },
+    "form": {
+      "name": "Nom Complet",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "votre@email.com",
+      "company": "Entreprise",
+      "companyPlaceholder": "Nom de votre entreprise",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous de votre projet…",
+      "submit": "Envoyer le Message",
+      "success": "Message envoyé !"
+    }
+  },
+  "footer": {
+    "description": "Transformer les idées en solutions digitales innovantes.",
+    "services": "Services",
+    "company": "Entreprise",
+    "legal": "Légal",
+    "about": "À Propos",
+    "whyUs": "Pourquoi nous",
+    "careers": "Carrières",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "cookies": "Cookies",
+    "copyright": "Tous droits réservés."
+  }
+}

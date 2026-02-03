@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "features": "Features",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Fresh Innovation",
+    "title": "We Turn Your Ideas into",
+    "titleHighlight": "Digital Solutions",
+    "description": "We develop custom software that drives your business growth. Innovation, expertise, and results you can trust.",
+    "ctaPrimary": "Get Started Now",
+    "ctaSecondary": "View Services",
+    "stats": {
+      "projects": "Growing Portfolio",
+      "satisfaction": "Client Satisfaction",
+      "experience": "Software Development Team"
+    },
+    "badge2": {
+      "title": "Fast delivery",
+      "subtitle": "agile and efficient"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer complete technology solutions to move your business into the future.",
+    "items": {
+      "web": {
+        "title": "Web Development",
+        "description": "Modern and scalable web applications built with the latest technologies and best practices."
+      },
+      "mobile": {
+        "title": "Mobile Apps",
+        "description": "Native and hybrid mobile applications for iOS and Android with outstanding user experiences."
+      },
+      "automation": {
+        "title": "Automation",
+        "description": "Optimize business processes with smart and efficient automation solutions."
+      },
+      "security": {
+        "title": "Security",
+        "description": "Implementation of industry best security practices to protect your data and applications."
+      },
+      "consulting": {
+        "title": "Consulting",
+        "description": "Expert technology consulting to help you make the best strategic decisions."
+      },
+      "cloud": {
+        "title": "Cloud Solutions",
+        "description": "Cloud migration and development using AWS, Azure, and Google Cloud."
+      }
+    }
+  },
+  "features": {
+    "title": "Why Choose Azouggi?",
+    "subtitle": "We combine technical expertise with a client-focused approach to deliver solutions that actually work.",
+    "items": {
+      "agile": {
+        "title": "Agile methodology for fast delivery",
+        "description": "Iterative development for quick results"
+      },
+      "team": {
+        "title": "Experienced development team",
+        "description": "Dedicated professionals"
+      },
+      "support": {
+        "title": "Dedicated technical support",
+        "description": "Always here to help"
+      },
+      "code": {
+        "title": "Clean, well-documented code",
+        "description": "Built for maintainability"
+      },
+      "cicd": {
+        "title": "Continuous integration and deployment",
+        "description": "Automated pipelines"
+      },
+      "testing": {
+        "title": "Thorough quality testing",
+        "description": "Ensuring reliability"
+      }
+    },
+    "quote": "We work with the latest proven technologies to ensure your solution is modern, scalable, and maintainable in the long term.",
+    "quoteAuthor": "Azouggi"
+  },
+  "contact": {
+    "title": "Ready to Get Started?",
+    "subtitle": "Tell us about your project and we'll help bring it to life.",
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "office": "Office",
+      "location": "Nouakchott, Mauritania"
+    },
+    "why": {
+      "title": "Why Contact Us?",
+      "item1": "Free initial consultation",
+      "item2": "No-obligation quote",
+      "item3": "Fast response time",
+      "item4": "Personalized advice"
+    },
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "company": "Company",
+      "companyPlaceholder": "Your company name",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project…",
+      "submit": "Send Message",
+      "success": "Message sent!"
+    }
+  },
+  "footer": {
+    "description": "Transforming ideas into innovative digital solutions.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "about": "About Us",
+    "whyUs": "Why Choose Us",
+    "careers": "Careers",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookies",
+    "copyright": "All rights reserved."
+  }
+}
