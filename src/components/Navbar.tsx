@@ -22,9 +22,9 @@ const Navbar = () => {
             <img
               src="/images/LogoAzougui.png"
               alt="Azougui Logo"
-              className="h-12 w-auto"
+              className="h-10 w-auto"
             />
-            <span className="text-2xl font-bold text-gray-900">AzouguiTech</span>
+            <span className="text-2xl font-bold text-gray-900">AzouggiTech</span>
           </div>
 
           {/* Menu Desktop */}

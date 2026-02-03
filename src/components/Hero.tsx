@@ -68,7 +68,7 @@ const Hero = () => {
           <div className="relative animate-fade-in-right">
             
             {/* TERMINAL */}
-            <div className="relative bg-gray-900 rounded-2xl shadow-2xl overflow-hidden border border-gray-700">
+            <div className="relative bg-gray-900 rounded-2xl shadow-2xl overflow-hidden border border-gray-700 max-w-sm">
               
               {/* Header du terminal */}
               <div className="bg-gray-800 px-4 py-3 flex items-center space-x-2 border-b border-gray-700">
@@ -79,7 +79,7 @@ const Hero = () => {
               </div>
 
               {/* CODE */}
-              <div className="p-6 font-mono text-sm leading-relaxed">
+              <div className="p-4 font-mono text-xs leading-relaxed">
                 <div className="space-y-1">
                   <div>
                     <span className="text-purple-400">const</span>{' '}
