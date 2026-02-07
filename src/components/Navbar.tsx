@@ -20,8 +20,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-3">
             <img
-              src="/images/LogoAzougui.png"
-              alt="Azougui Logo"
+              src="/images/logo.png"
+              alt="Azouggi Logo"
               className="h-10 w-auto"
             />
             <span className="text-2xl font-bold text-gray-900">AzouggiTech</span>
