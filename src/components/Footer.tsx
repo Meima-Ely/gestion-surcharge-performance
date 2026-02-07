@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-4">
-              <img src="/images/logo.png" alt="Azouggi Logo" className="h-10 w-auto" />
+              <img src="/images/logo.png" alt="Azouggi Logo" className="h-12 w-auto" />
               <span className="text-2xl font-bold">AzouguiTech</span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
