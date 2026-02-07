@@ -24,7 +24,7 @@ const Navbar = () => {
               alt="Azouggi Logo"
               className="h-12 w-auto"
             />
-            <span className="text-2xl font-bold text-gray-900">AzouggiTech</span>
+            <span className="text-xl font-bold text-gray-900">AzouggiTech</span>
           </div>
 
           {/* Menu Desktop */}
