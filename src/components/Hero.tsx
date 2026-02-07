@@ -17,7 +17,7 @@ const Hero = () => {
     <section id="accueil" className="relative min-h-screen pt-20 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          
+
           {/* PARTIE GAUCHE - TEXTE */}
           <div className="space-y-8 animate-fade-in-up">
             <div className="inline-flex items-center space-x-2 bg-blue-100 px-4 py-2 rounded-full">
@@ -66,20 +66,20 @@ const Hero = () => {
 
           {/* PARTIE DROITE - TERMINAL DE CODE (REMPLACE L'IMAGE) */}
           <div className="relative animate-fade-in-right">
-            
+
             {/* TERMINAL */}
             <div className="relative bg-gray-900 rounded-2xl shadow-2xl overflow-hidden border border-gray-700 max-w-sm">
-              
+
               {/* Header du terminal */}
               <div className="bg-gray-800 px-4 py-3 flex items-center space-x-2 border-b border-gray-700">
                 <div className="w-3 h-3 rounded-full bg-red-500"></div>
                 <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                 <div className="w-3 h-3 rounded-full bg-green-500"></div>
-                <span className="text-gray-400 text-xs ml-4 font-mono">azouggi-tech.js</span>
+                <span className="text-gray-400 text-xs ml-4 font-mono">{t('hero.terminal.fileName')}</span>
               </div>
 
               {/* CODE */}
-              <div className="p-4 font-mono text-xs leading-relaxed">
+              <div className="p-4 font-mono text-xs leading-relaxed text-left" dir="ltr">
                 <div className="space-y-1">
                   <div>
                     <span className="text-purple-400">const</span>{' '}
@@ -90,13 +90,13 @@ const Hero = () => {
                   <div className="pl-4">
                     <span className="text-green-400">mission</span>
                     <span className="text-gray-300">:</span>{' '}
-                    <span className="text-yellow-300">"Innovation"</span>
+                    <span className="text-yellow-300">"{t('hero.terminal.code.mission')}"</span>
                     <span className="text-gray-300">,</span>
                   </div>
                   <div className="pl-4">
                     <span className="text-green-400">vision</span>
                     <span className="text-gray-300">:</span>{' '}
-                    <span className="text-yellow-300">"Excellence"</span>
+                    <span className="text-yellow-300">"{t('hero.terminal.code.vision')}"</span>
                     <span className="text-gray-300">,</span>
                   </div>
                   <div className="pl-4">
@@ -105,22 +105,22 @@ const Hero = () => {
                     <span className="text-yellow-400">[</span>
                   </div>
                   <div className="pl-8">
-                    <span className="text-yellow-300">"Web Development"</span>
+                    <span className="text-yellow-300">"{t('hero.terminal.code.services.web')}"</span>
                     <span className="text-gray-300">,</span>
                   </div>
                   <div className="pl-8">
-                    <span className="text-yellow-300">"Mobile Apps"</span>
+                    <span className="text-yellow-300">"{t('hero.terminal.code.services.mobile')}"</span>
                     <span className="text-gray-300">,</span>
                   </div>
                   <div className="pl-8">
-                    <span className="text-yellow-300">"Cybersecurity"</span>
+                    <span className="text-yellow-300">"{t('hero.terminal.code.services.security')}"</span>
                   </div>
                   <div className="pl-4">
                     <span className="text-yellow-400">]</span>
                     <span className="text-gray-300">,</span>
                   </div>
                   <div className="pl-4">
-                    <span className="text-purple-400">transform</span>
+                    <span className="text-purple-400">{t('hero.terminal.code.function')}</span>
                     <span className="text-gray-300">:</span>{' '}
                     <span className="text-gray-300">() </span>
                     <span className="text-pink-400">=&gt;</span>{' '}
@@ -128,7 +128,7 @@ const Hero = () => {
                   </div>
                   <div className="pl-8">
                     <span className="text-pink-400">return</span>{' '}
-                    <span className="text-yellow-300">"Succès"</span>
+                    <span className="text-yellow-300">"{t('hero.terminal.code.return')}"</span>
                     <span className="text-gray-300">;</span>
                   </div>
                   <div className="pl-4">
@@ -143,7 +143,7 @@ const Hero = () => {
             </div>
 
             {/* BADGES FLOTTANTS */}
-            
+
             {/* Badge Dév Web */}
             <div className="absolute -top-4 -left-8 bg-white rounded-xl shadow-xl px-5 py-3 flex items-center space-x-3 animate-float">
               <div className="bg-blue-100 p-2 rounded-lg">
@@ -151,7 +151,7 @@ const Hero = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                 </svg>
               </div>
-              <span className="font-semibold text-gray-900 text-sm">Dév Web</span>
+              <span className="font-semibold text-gray-900 text-sm whitespace-nowrap">{t('hero.terminal.badges.web')}</span>
             </div>
 
             {/* Badge App Mobile */}
@@ -161,7 +161,7 @@ const Hero = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
               </div>
-              <span className="font-semibold text-gray-900 text-sm">App Mobile</span>
+              <span className="font-semibold text-gray-900 text-sm whitespace-nowrap">{t('hero.terminal.badges.mobile')}</span>
             </div>
 
             {/* Badge Sécurité */}
@@ -171,7 +171,7 @@ const Hero = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <span className="font-semibold text-gray-900 text-sm">Sécurité</span>
+              <span className="font-semibold text-gray-900 text-sm whitespace-nowrap">{t('hero.terminal.badges.security')}</span>
             </div>
 
             {/* Badge Cloud */}
@@ -181,7 +181,7 @@ const Hero = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
                 </svg>
               </div>
-              <span className="font-semibold text-gray-900 text-sm">Cloud</span>
+              <span className="font-semibold text-gray-900 text-sm whitespace-nowrap">{t('hero.terminal.badges.cloud')}</span>
             </div>
 
           </div>

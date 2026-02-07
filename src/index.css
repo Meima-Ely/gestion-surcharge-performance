@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+/* العناوين */
+h1, h2, h3 {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 700; /* Bold */
+}
+
+/* النص العادي */
+body, p {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-weight: 400; /* Regular */
+  line-height: 1.8; /* مسافة بين الأسطر */
+}

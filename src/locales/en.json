@@ -7,9 +7,9 @@
   },
   "hero": {
     "badge": "Fresh Innovation",
-    "title": "We Turn Your Ideas into",
-    "titleHighlight": "Digital Solutions",
-    "description": "We develop custom software that drives your business growth. Innovation, expertise, and results you can trust.",
+    "title": "IT Solutions",
+    "titleHighlight": "For Your Business",
+    "description": "We turn your ideas into digital reality. Web development, mobile apps, cybersecurity, and professional technical support to grow your business.",
     "ctaPrimary": "Get Started Now",
     "ctaSecondary": "View Services",
     "stats": {
@@ -20,6 +20,26 @@
     "badge2": {
       "title": "Fast delivery",
       "subtitle": "agile and efficient"
+    },
+    "terminal": {
+      "fileName": "azouggi-tech.js",
+      "code": {
+        "mission": "Innovation",
+        "vision": "Excellence",
+        "services": {
+          "web": "Web Development",
+          "mobile": "Mobile Apps",
+          "security": "Cybersecurity"
+        },
+        "function": "transform",
+        "return": "Success"
+      },
+      "badges": {
+        "web": "Web Dev",
+        "mobile": "Mobile App",
+        "security": "Security",
+        "cloud": "Cloud"
+      }
     }
   },
   "services": {

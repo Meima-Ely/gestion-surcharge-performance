@@ -7,9 +7,9 @@
   },
   "hero": {
     "badge": "Innovation Fraîche",
-    "title": "Nous Transformons Vos Idées en",
-    "titleHighlight": "Solutions Digitales",
-    "description": "Nous développons des logiciels sur mesure qui stimulent la croissance de votre entreprise. Innovation, expertise et résultats garantis.",
+    "title": "Solutions Informatiques",
+    "titleHighlight": "Pour Votre Entreprise",
+    "description": "Nous transformons vos idées en réalité digitale. Développement web, applications mobiles, cybersécurité et support technique professionnel pour faire croître votre entreprise.",
     "ctaPrimary": "Commencer Maintenant",
     "ctaSecondary": "Voir les Services",
     "stats": {
@@ -20,6 +20,26 @@
     "badge2": {
       "title": "Livraison rapide",
       "subtitle": "Agile et efficace"
+    },
+    "terminal": {
+      "fileName": "azouggi-tech.js",
+      "code": {
+        "mission": "Innovation",
+        "vision": "Excellence",
+        "services": {
+          "web": "Dév Web",
+          "mobile": "App Mobile",
+          "security": "Cybersécurité"
+        },
+        "function": "transformer",
+        "return": "Succès"
+      },
+      "badges": {
+        "web": "Dév Web",
+        "mobile": "App Mobile",
+        "security": "Sécurité",
+        "cloud": "Cloud"
+      }
     }
   },
   "services": {
