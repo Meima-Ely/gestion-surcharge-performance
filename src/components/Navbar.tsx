@@ -22,7 +22,7 @@ const Navbar = () => {
             <img
               src="/images/logo.png"
               alt="Azouggi Logo"
-              className="h-10 w-auto"
+              className="h-12 w-auto"
             />
             <span className="text-2xl font-bold text-gray-900">AzouggiTech</span>
           </div>
