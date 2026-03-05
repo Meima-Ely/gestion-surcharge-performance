@@ -8,7 +8,7 @@ h1, h2, h3 {
 
 /* النص العادي */
 body, p {
-  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-family: 'IBM Plex Sans Arabic' , sans-serif;
   font-weight: 400; /* Regular */
   line-height: 1.8; /* مسافة بين الأسطر */
 }

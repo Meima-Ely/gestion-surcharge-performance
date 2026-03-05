@@ -1,0 +1,104 @@
+version: '3.8'
+
+services:
+
+  api1:
+    build: .
+    container_name: api1
+    restart: unless-stopped          # ✅ redémarre si crash
+    ports:
+      - "5001:5000"
+    environment:
+      - SERVER_ID=api1
+      - DB_PATH=/app/data/devis.db
+    volumes:
+      - .:/app
+      - api1_data:/app/data
+    healthcheck:                     # ✅ Nginx attend que Flask soit prêt
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5000/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+      start_period: 10s
+
+  api2:
+    build: .
+    container_name: api2
+    restart: unless-stopped
+    ports:
+      - "5002:5000"
+    environment:
+      - SERVER_ID=api2
+      - DB_PATH=/app/data/devis.db
+    volumes:
+      - .:/app
+      - api2_data:/app/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5000/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+      start_period: 10s
+
+  api3:
+    build: .
+    container_name: api3
+    restart: unless-stopped
+    ports:
+      - "5003:5000"
+    environment:
+      - SERVER_ID=api3
+      - DB_PATH=/app/data/devis.db
+    volumes:
+      - .:/app
+      - api3_data:/app/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5000/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+      start_period: 10s
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx_lb
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:                      # ✅ attend le healthcheck des 3 APIs
+      api1:
+        condition: service_healthy
+      api2:
+        condition: service_healthy
+      api3:
+        condition: service_healthy
+
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    restart: unless-stopped
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus  # ✅ données persistantes
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana_data:/var/lib/grafana # ✅ dashboards persistants
+
+volumes:
+  api1_data:
+  api2_data:
+  api3_data:
+  prometheus_data:  
+  grafana_data:     
